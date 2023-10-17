@@ -17,7 +17,8 @@ ParQuik's system architecture is comprised of the following components:
 
 2. Vehicle entry with ParQuik is hassle-free. Users simply need to scan their QR code at the entry gate. The system will verify their identity and confirm their parking duration. Once verified, the entry gate will open automatically.
 
-3. ParQuik employs a sophisticated allocation algorithm that optimizes parking assignments. Factors such as vehicle type, current occupancy, and user preferences are taken into account. This ensures that mall visitors are directed to spaces near entrances, while logistics vehicles are guided to designated loading zones. User notifications are sent to enhance the parking experience.
+3. ParQuik employs a sophisticated allocation algorithm that optimizes parking assignments. A computer vision module uses object detection to differentiate between vacant and occupied parking slots. An abstract and simplified version of the same is displayed to the user, enabling them to choose their parking slot.
+<img width="1089" alt="image" src="https://github.com/Adip-KG/ParQuik/assets/87146827/f77198a2-d503-4618-b217-a20c1b8658bd">
 
 4. Users can choose from various payment methods within the ParQuik app, including credit/debit cards and mobile payment apps. The system calculates parking fees based on the duration of the stay and vehicle type. Real-time duration tracking eliminates the need for manual timekeeping and reduces disputes.
 
